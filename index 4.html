@@ -3770,6 +3770,462 @@ createQuestion({
     wrong:["harmful","fragile","ordinary"],
     exp:"effective = 効果的な。"
   }),
+  /* =========================
+   追加問題セット
+========================= */
+
+const extraQuestions = [
+
+createQuestion({
+  cat:"文法",
+  lv:"基礎",
+  q:"He ___ to school every day.",
+  ans:"goes",
+  wrong:["go","going","gone"],
+  exp:"三単現のs。"
+}),
+
+createQuestion({
+  cat:"文法",
+  lv:"基礎",
+  q:"I ___ tennis now.",
+  ans:"am playing",
+  wrong:["play","played","plays"],
+  exp:"now → 現在進行形。"
+}),
+
+createQuestion({
+  cat:"文法",
+  lv:"基礎",
+  q:"She ___ breakfast before school.",
+  ans:"eats",
+  wrong:["eat","eating","ate"],
+  exp:"習慣 → 現在形。"
+}),
+
+createQuestion({
+  cat:"文法",
+  lv:"基礎",
+  q:"They ___ in Tokyo last year.",
+  ans:"lived",
+  wrong:["live","living","have lived"],
+  exp:"last year → 過去形。"
+}),
+
+createQuestion({
+  cat:"不定詞",
+  lv:"基礎",
+  q:"I hope ___ a doctor someday.",
+  ans:"to become",
+  wrong:["becoming","become","became"],
+  exp:"hope to do。"
+}),
+
+createQuestion({
+  cat:"動名詞",
+  lv:"基礎",
+  q:"She finished ___ her homework.",
+  ans:"doing",
+  wrong:["do","to do","did"],
+  exp:"finish の後は動名詞。"
+}),
+
+createQuestion({
+  cat:"助動詞",
+  lv:"基礎",
+  q:"You ___ smoke here.",
+  ans:"must not",
+  wrong:["can","may","would"],
+  exp:"禁止。"
+}),
+
+createQuestion({
+  cat:"比較",
+  lv:"基礎",
+  q:"This car is ___ than mine.",
+  ans:"faster",
+  wrong:["fast","fastest","more fast"],
+  exp:"比較級。"
+}),
+
+createQuestion({
+  cat:"受動態",
+  lv:"基礎",
+  q:"English ___ all over the world.",
+  ans:"is spoken",
+  wrong:["speaks","spoken","is speaking"],
+  exp:"受動態。"
+}),
+
+createQuestion({
+  cat:"関係詞",
+  lv:"基礎",
+  q:"The girl ___ lives next door is kind.",
+  ans:"who",
+  wrong:["which","what","where"],
+  exp:"先行詞が人。"
+}),
+
+createQuestion({
+  cat:"前置詞",
+  lv:"基礎",
+  q:"My school starts ___ 8:30.",
+  ans:"at",
+  wrong:["in","on","for"],
+  exp:"時刻 → at。"
+}),
+
+createQuestion({
+  cat:"冠詞",
+  lv:"基礎",
+  q:"I have ___ dog.",
+  ans:"a",
+  wrong:["an","the","—"],
+  exp:"子音始まり。"
+}),
+
+createQuestion({
+  cat:"熟語",
+  lv:"基礎",
+  q:"Please turn ___ the TV.",
+  ans:"off",
+  wrong:["up","into","after"],
+  exp:"turn off = 消す。"
+}),
+
+createQuestion({
+  cat:"熟語",
+  lv:"基礎",
+  q:"I am looking ___ to the trip.",
+  ans:"forward",
+  wrong:["after","up","out"],
+  exp:"look forward to。"
+}),
+
+createQuestion({
+  cat:"単語",
+  lv:"基礎",
+  q:"He is very ___. Everyone likes him.",
+  ans:"kind",
+  wrong:["dangerous","weak","noisy"],
+  exp:"kind = 親切な。"
+}),
+
+createQuestion({
+  cat:"単語",
+  lv:"基礎",
+  q:"The box is too ___ to carry.",
+  ans:"heavy",
+  wrong:["light","small","short"],
+  exp:"heavy = 重い。"
+}),
+
+createQuestion({
+  cat:"文法",
+  lv:"標準",
+  q:"If I ___ enough money, I would buy the car.",
+  ans:"had",
+  wrong:["have","will have","has"],
+  exp:"仮定法過去。"
+}),
+
+createQuestion({
+  cat:"文法",
+  lv:"標準",
+  q:"She suggested ___ early.",
+  ans:"leaving",
+  wrong:["leave","to leave","left"],
+  exp:"suggest の後は動名詞。"
+}),
+
+createQuestion({
+  cat:"比較",
+  lv:"標準",
+  q:"This is the ___ movie I have ever seen.",
+  ans:"best",
+  wrong:["better","good","well"],
+  exp:"最上級。"
+}),
+
+createQuestion({
+  cat:"関係詞",
+  lv:"標準",
+  q:"This is the place ___ we met.",
+  ans:"where",
+  wrong:["which","who","what"],
+  exp:"場所 → where。"
+}),
+
+createQuestion({
+  cat:"助動詞",
+  lv:"標準",
+  q:"He ___ be tired after the long walk.",
+  ans:"must",
+  wrong:["can","should","would"],
+  exp:"must = 強い推量。"
+}),
+
+createQuestion({
+  cat:"時制",
+  lv:"標準",
+  q:"I ___ this book three times.",
+  ans:"have read",
+  wrong:["read","had read","am reading"],
+  exp:"経験の現在完了。"
+}),
+
+createQuestion({
+  cat:"分詞",
+  lv:"標準",
+  q:"The boy ___ by the window is my friend.",
+  ans:"standing",
+  wrong:["stood","stands","to stand"],
+  exp:"現在分詞の後置修飾。"
+}),
+
+createQuestion({
+  cat:"仮定法",
+  lv:"標準",
+  q:"I wish I ___ taller.",
+  ans:"were",
+  wrong:["am","was","be"],
+  exp:"仮定法過去。"
+}),
+
+createQuestion({
+  cat:"熟語",
+  lv:"標準",
+  q:"We ran ___ of money.",
+  ans:"out",
+  wrong:["off","through","over"],
+  exp:"run out of = 使い果たす。"
+}),
+
+createQuestion({
+  cat:"熟語",
+  lv:"標準",
+  q:"She put ___ the meeting.",
+  ans:"off",
+  wrong:["up","away","through"],
+  exp:"put off = 延期する。"
+}),
+
+createQuestion({
+  cat:"単語",
+  lv:"標準",
+  q:"The scientist carefully ___ the results.",
+  ans:"analyzed",
+  wrong:["destroyed","hid","copied"],
+  exp:"analyze = 分析する。"
+}),
+
+createQuestion({
+  cat:"単語",
+  lv:"標準",
+  q:"The situation became very ___.",
+  ans:"serious",
+  wrong:["tiny","ordinary","simple"],
+  exp:"serious = 深刻な。"
+}),
+
+createQuestion({
+  cat:"構文",
+  lv:"標準",
+  q:"The more you practice, ___ you become.",
+  ans:"the better",
+  wrong:["better","best","good"],
+  exp:"the 比較級, the 比較級。"
+}),
+
+createQuestion({
+  cat:"受動態",
+  lv:"標準",
+  q:"The window ___ yesterday.",
+  ans:"was broken",
+  wrong:["broke","breaks","broken"],
+  exp:"受動態。"
+}),
+
+createQuestion({
+  cat:"倒置",
+  lv:"難関大",
+  q:"Never ___ such a beautiful scene.",
+  ans:"have I seen",
+  wrong:["I have seen","did I see","I saw"],
+  exp:"Never が文頭 → 倒置。"
+}),
+
+createQuestion({
+  cat:"仮定法",
+  lv:"難関大",
+  q:"Had I known the truth, I ___ differently.",
+  ans:"would have acted",
+  wrong:["acted","would act","had acted"],
+  exp:"仮定法過去完了。"
+}),
+
+createQuestion({
+  cat:"関係詞",
+  lv:"難関大",
+  q:"He said nothing ___ surprised me.",
+  ans:"that",
+  wrong:["what","who","where"],
+  exp:"nothing を修飾。"
+}),
+
+createQuestion({
+  cat:"熟語",
+  lv:"難関大",
+  q:"The theory accounts ___ the phenomenon.",
+  ans:"for",
+  wrong:["with","to","on"],
+  exp:"account for = 説明する。"
+}),
+
+createQuestion({
+  cat:"比較",
+  lv:"難関大",
+  q:"No other city in Japan is ___ than Tokyo.",
+  ans:"larger",
+  wrong:["largest","large","more large"],
+  exp:"比較級。"
+}),
+
+createQuestion({
+  cat:"単語",
+  lv:"難関大",
+  q:"His explanation was highly ___.",
+  ans:"convincing",
+  wrong:["fragile","ordinary","rural"],
+  exp:"convincing = 説得力のある。"
+}),
+
+createQuestion({
+  cat:"単語",
+  lv:"難関大",
+  q:"The government faces an economic ___.",
+  ans:"crisis",
+  wrong:["ceremony","lecture","surface"],
+  exp:"crisis = 危機。"
+}),
+
+createQuestion({
+  cat:"構文",
+  lv:"難関大",
+  q:"Only after the meeting ___ the truth.",
+  ans:"did he realize",
+  wrong:["he realized","had he realized","he had realized"],
+  exp:"Only after → 倒置。"
+}),
+
+createQuestion({
+  cat:"助動詞",
+  lv:"難関大",
+  q:"She ___ have missed the train.",
+  ans:"must",
+  wrong:["can","would","shall"],
+  exp:"must have pp。"
+}),
+
+createQuestion({
+  cat:"文法",
+  lv:"難関大",
+  q:"Scarcely ___ the room when the phone rang.",
+  ans:"had he entered",
+  wrong:["he entered","did he enter","he had entered"],
+  exp:"Scarcely had S pp when ...。"
+}),
+
+createQuestion({
+  cat:"医学部",
+  lv:"医学部",
+  q:"The patient ___ severe pain yesterday.",
+  ans:"experienced",
+  wrong:["experience","experiences","experiencing"],
+  exp:"過去形。"
+}),
+
+createQuestion({
+  cat:"医学部",
+  lv:"医学部",
+  q:"The doctor advised him ___ smoking.",
+  ans:"to stop",
+  wrong:["stop","stopping","stopped"],
+  exp:"advise O to do。"
+}),
+
+createQuestion({
+  cat:"医学部",
+  lv:"医学部",
+  q:"The medicine proved highly ___.",
+  ans:"effective",
+  wrong:["ordinary","limited","ancient"],
+  exp:"effective = 効果的な。"
+}),
+
+createQuestion({
+  cat:"医学部",
+  lv:"医学部",
+  q:"The symptoms gradually ___.",
+  ans:"worsened",
+  wrong:["improved","rested","expanded"],
+  exp:"worsen = 悪化する。"
+}),
+
+createQuestion({
+  cat:"医学部",
+  lv:"医学部",
+  q:"Rarely ___ such rapid recovery.",
+  ans:"do doctors see",
+  wrong:["doctors see","did doctors see","doctors saw"],
+  exp:"Rarely → 倒置。"
+}),
+
+createQuestion({
+  cat:"医学部",
+  lv:"医学部",
+  q:"The operation ___ by tomorrow morning.",
+  ans:"will have finished",
+  wrong:["finishes","finished","has finished"],
+  exp:"未来完了。"
+}),
+
+createQuestion({
+  cat:"医学部",
+  lv:"医学部",
+  q:"The scientist carefully ___ the samples.",
+  ans:"examined",
+  wrong:["escaped","avoided","borrowed"],
+  exp:"examine = 調べる。"
+}),
+
+createQuestion({
+  cat:"医学部",
+  lv:"医学部",
+  q:"The disease spread through close ___.",
+  ans:"contact",
+  wrong:["lecture","silence","distance"],
+  exp:"contact = 接触。"
+}),
+
+createQuestion({
+  cat:"医学部",
+  lv:"医学部",
+  q:"The treatment resulted ___ improvement.",
+  ans:"in",
+  wrong:["from","to","with"],
+  exp:"result in = 結果として〜になる。"
+}),
+
+createQuestion({
+  cat:"医学部",
+  lv:"医学部",
+  q:"The patient remained ___.",
+  ans:"stable",
+  wrong:["violent","fragile","distant"],
+  exp:"stable = 安定した。"
+})
+
 ];
 
 
